@@ -200,10 +200,10 @@ form.sign-in-form {
   display: block;
 }
 .logo-image {
-  max-width: 300px;
+  max-width: 200px;
   width: 100%;
   height: auto;
-  margin-top: 2rem;
+  margin-top: 3rem;
   display: block;
   opacity: 1;
   transform: translateY(0);
@@ -219,15 +219,15 @@ form.sign-in-form {
 }
 
 .logo-image-right {
-  max-width: 300px;
+  max-width: 200px;
   width: 100%;
   height: auto;
   display: block;
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateY(0px);
   transition: all 0.6s ease;
   transition-delay: 0s;
-  margin-top: 1rem;
+  margin: 1rem auto 1rem auto;
 }
 
 .container.sign-up-mode .logo-image-right {
@@ -246,6 +246,7 @@ form.sign-in-form {
   transition: transform 0.9s ease-in-out;
   transition-delay: 0.6s;
   gap: 1.2rem; /* Espaciado uniforme entre elementos */
+  margin-top: .5rem;
 }
 
 /* Ocultar logo cuando se activa sign-up-mode */
@@ -282,7 +283,7 @@ form.sign-in-form {
 }
 
 .panel h3 {
-  font-weight: 600;
+  font-weight: 200;
   line-height: 1;
   font-size: 1.5rem;
 }
